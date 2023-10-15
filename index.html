@@ -41,7 +41,7 @@
             height: -webkit-fill-available;
             max-height: 100vh;
             overflow-x: auto;
-            overflow-y: hidden;
+            overflow-y: auto;
         }
 
         .b-example-divider {
@@ -329,6 +329,60 @@
                         Доверие)
                       </div>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Название товара</th>
+                            <th scope="col">Цена за штуку</th>
+                            <th scope="col">Количество</th>
+                            <th scope="col">Итоговая сумма</th>
+                            <th scope="col">Статус заказа</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Laptop</td>
+                            <td>125000</td>
+                            <td>1</td>
+                            <td>125000</td>
+                            <td>
+                                <div class="alert alert-success" role="alert">
+                                    Получен
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Phone</td>
+                            <td>95000</td>
+                            <td>2</td>
+                            <td>190000</td>
+                            <td>
+                                <div class="alert alert-info" role="alert">
+                                    В пути
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                            <td>Book</td>
+                            <td>2000</td>
+                            <td>5</td>
+                            <td>10000</td>
+                            <td>
+                                <div class="alert alert-danger" role="alert">
+                                    Отклонён
+                                </div>
+                            </td>
+                        </tr>
+                      </tbody>
+                    </table>
                 </div>
             </div>
         </main>
